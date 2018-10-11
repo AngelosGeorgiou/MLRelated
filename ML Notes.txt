@@ -1,0 +1,61 @@
+ML Notes
+
+Lexalytics
+For Supervised Learning
+Tokenization
+	Use white space to define word
+Pats of Speech Tagging
+	Recognize Named Entities, extract themes and process sentiment
+Named Entity Recognition
+	Main use of POS
+Sentiment
+	
+Classification
+
+For Unsupervised Learning
+Concept Matrix 
+	whats closed to or not
+Syntax Matrix
+	the most likely parsing of a sentence
+In a sentence 
+	–
+
+
+Hybrid model
+Every ML method is aligned with patterns and rules of the language. 
+
+Low-Level:
+Tokenization: ML + Rules 
+PoS Tagging: Machine Learning 
+Chunking: Rules 
+Sentence Boundaries: ML + Rules 
+Syntax Analysis: ML + Rules 
+Mid-Level:
+Entities: ML + Rules to determine “Who, What, Where” 
+Themes: Rules “What’s the buzz?” 
+Topics: ML + Rules “About this?” 
+Summaries: Rules “Make it short” 
+Intentions: ML + Rules “What are you going to do?” 
+Intentions uses the syntax matrix to extract the intender, intendee, and intent 
+We use ML to train models for the different types of intent 
+We use rules to whitelist or blacklist certain words 
+Multilayered approach to get you the best accuracy 
+High-Level:
+Apply Sentiment: ML + Rules “How do you feel about that?
+
+
+
+Notes on Machine Learning Fundamentals
+
+10-12 hours per week
+
+Use of nearest neighbour with 3.08% error rate
+to find handwritter numbers
+mentioned of training data as 10-cross-validation
+(=divide training data)
+
+use of structures to reduce k-NN search
+
+distance functions
+Lp norms
+Metric spaces
