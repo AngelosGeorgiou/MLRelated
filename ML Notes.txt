@@ -59,3 +59,11 @@ use of structures to reduce k-NN search
 distance functions
 Lp norms
 Metric spaces
+
+	
+Lp norms
+	L1 = (manhatan distance)
+	L2 = eucledian distance
+	Linfinty = max point distance
+
+Metric functions properties
