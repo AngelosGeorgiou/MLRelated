@@ -1,2 +1,18 @@
 Generative Approach to Classification
-s
+
+	πi = Pr(y = i) 	[probability of class i]  Σπι = 1
+	Pi(x)			[probability of x's label is i]
+
+	Joint distribution Pr(x,y) = Pr(y)Pr(x|y) = πyPy(x)
+	For new x we pick the largest label
+
+Probability Review I
+	Probability spaces
+	Bayes' rule
+
+Generative Modeling in One Dimension
+	wine example
+		calculate π
+		13 features (13 dimensions) [advanced]
+		for now we pick 1 feature, create the histogram, find median and variance. Then create Gaussian N(μ,σ^2) for each label
+		use Bayes' rule two classify
