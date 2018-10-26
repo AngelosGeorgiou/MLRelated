@@ -12,7 +12,31 @@ Probability Review I
 
 Generative Modeling in One Dimension
 	wine example
-		calculate π
-		13 features (13 dimensions) [advanced]
-		for now we pick 1 feature, create the histogram, find median and variance. Then create Gaussian N(μ,σ^2) for each label
-		use Bayes' rule two classify
+	-calculate π
+	-13 features (13 dimensions) [advanced]
+	-for now we pick 1 feature, create the histogram, find median and variance. Then create Gaussian N(μ,σ^2) for each label
+	-use Bayes' rule two classify
+
+Probability Review II
+	Random Variables
+	Median
+	Variance
+
+Probability Review III
+	Independent random variables (to use for multiple features on generative modeling)
+	Dependence
+		positevely correlated	E[HW]>E[H]E[W]		
+	Correlation coefficient r ε [-1,1]  
+	types of correlation
+		positively		r>0
+		negatively		r<-1	E[HW]<E[H]E[W]
+		uncorrelated	r=0		E[HW]=E[H]E[W]
+	Covariance
+		r=cov(X,Y)= E[(X-E[X])(Y-E[Y])]
+					E[XY] - E[X]E[Y]
+	Correlation
+		corr(X,Y) = cov(X,Y)/σ(X)σ(Y)
+	If X,Y independent => cov(X,Y) = 0 
+
+
+
