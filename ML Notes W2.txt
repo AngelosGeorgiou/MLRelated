@@ -25,6 +25,7 @@ Probability Review II
 Probability Review III
 	Independent random variables (to use for multiple features on generative modeling)
 	Dependence
+		P(X=A)P(Y=B)=/=P(X=A and Y=B)
 		positevely correlated	E[HW]>E[H]E[W]		
 	Correlation coefficient r ε [-1,1]  
 	types of correlation
@@ -38,5 +39,11 @@ Probability Review III
 		corr(X,Y) = cov(X,Y)/σ(X)σ(Y)
 	If X,Y independent => cov(X,Y) = 0 
 
-
+Two Dimensional Generative Modeling
+	Bivariate Gaussian
+			(13.7)		(0.20 0.06)
+		μ = ( 3.0)  Σ = (0.06 0.12)	
+	0.20: variance along the y direction
+	0.12: variance along the x direction
+	0.06: covariance of the 2 features (both 0.06 points are the same)
 
