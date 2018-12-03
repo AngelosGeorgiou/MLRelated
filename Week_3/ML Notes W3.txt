@@ -1,0 +1,4 @@
+Linear Algebra I
+	Basic Array properties
+	Dot product of vectors
+		Orthogonality test (ab) = 0
