@@ -1,4 +1,21 @@
 Linear Algebra I
-	Basic Array properties
+	Basic Matrix properties
 	Dot product of vectors
 		Orthogonality test (ab) = 0
+
+Linean Algebra II
+	Vector dot product (vector size is dx1)
+	vector - Matrix product
+	matrix - matrix pruduct
+		AB(i,j) = A(i-row) dot B(j-column)
+	vector transpose properties
+	matrix order of operations
+
+Linear Algebra III:
+	Square matrices as quadratic functions
+		x'Mx = Sum M(i,j)x(j)x(i)
+	Spercial cases of square matrices: symmetric and diagonal
+	Determinant
+	Inverse
+
+	...
