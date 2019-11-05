@@ -1,0 +1,27 @@
+Introduction to Linear Regression
+  Regression problems: predictor variable (x),
+                       response variable (y)
+  MSE: mean squared error (minimize)
+  Parametriing a line y=ax+b
+  MSE(a,b) = 1/n Σ(yi-(axi+b))^2 (i=1)  (loss function)
+  Minimizing the loss function L
+    Zero the derivative
+      b = y' -ax'
+      a = (Σ[(yi -y')(xi-x')])/(Σ[(xi-x')^2])
+
+Linear Regression
+  Least-squares regression
+  10 features example
+  twidle~ w~ = (b,w) (d = 11)
+          x~ = (1,x)
+  minimized at w~ = (XtX)^-1 (Xty)
+
+Regularized Linear Regression
+  Least-squares regression: finding a linear function that minimizes the squared loss 
+  Ridge regression:  regularizer term
+    L(w,b) = Σ(yi -(wxi+b))^2 +λ(||w||2)^2 [i=1..n]
+  Lasso:
+    sparse w
+    L(w,b) = Σ(yi -(wxi+b))^2 +λ(||w||1) [i=1..n]
+
+Linear Models for Conditional Probability Estimation
